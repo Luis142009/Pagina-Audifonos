@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: #181818;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.seccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 520px;
+  max-width: 72%;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 200%;
+}
+
+.seccion img {
+  width: 500px;
+  margin-left: -30px;
+
+}
+
+.degradado {
+  font-size: 50px;
+  background: linear-gradient(to right, #1073ba 0%, #00da55 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 85px;
+  margin-top: -60px;
+}
+
+.precio strong {
+  font-size: 50px;
+  color: white;
+}
+
+.precio {
+  margin-top: 46px;
+  font-size: 13px;
+}
+
+.parrafo {
+  margin-top: -57px;
+  font-size: 13px;
+}
+
+.unico {
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.nuevo {
+  background-color: #fff;
+}
