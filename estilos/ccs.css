@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background: #181818;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.seccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 545px;
+  max-width: 72%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.seccion img {
+  width: 50%;
+  margin-left: -17px;
+}
+
+.degradado {
+  font-size: 50px;
+  background: linear-gradient(to right, #1073ba 0%, #00da55 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  margin-top: -50px;
+}
+
+.precio strong {
+  font-size: 50px;
+  color: white;
+}
+
+.precio {
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+.parrafo {
+  margin-top: -57px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.unico {
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.nuevo {
+  background-color: #fff;
+  color: black;
+  padding: 40px;
+}
+
+.dentro {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.orden{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+}
+
+.foto {
+  width: 43px;
+  margin-bottom: 10px;
+}
+
+.texto {
+  color: #1073ba;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-left: -1px;
+  
+}
+
+.descripcion {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.seccion-blanca {
+  background-color: white;
+   margin-top: -6px;
+   height: 200px;
+   color: rgb(255, 255, 255);
+}
+
+.sweet{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.cuadro{
+background-color: #1073ba;
+width: 50%;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.subtitulo{
+  font-size: 35px;
+  margin-top: 70px;
+}
+.texto1{
+  max-width: 500px;
+  margin-right: -160px;
+  line-height: 1.5;
+  font-size: 17px;
+  
+}
+.cuadro2{
+  background-color: aqua;
+  width: 50%;
+  height: 300px;
+}
+.cuadro2 img{
+  width: 100%;
+  height: 300px;
+}
+
+
