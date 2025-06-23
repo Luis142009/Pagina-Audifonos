@@ -4,14 +4,19 @@ body {
   color: #fff;
   font-family: sans-serif;
 }
-
+.papa{
+   display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 100vh;
+  width: 100%;
+}
 .seccion {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 545px;
   max-width: 72%;
-  margin: 0 auto;
   margin-top: 20px;
 }
 
@@ -78,58 +83,224 @@ body {
 
 .texto {
   color: #1073ba;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   margin-left: -1px;
   
 }
 
 .descripcion {
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
 .seccion-blanca {
   background-color: white;
    margin-top: -6px;
-   height: 200px;
+   height: 550px;
    color: rgb(255, 255, 255);
+   margin-bottom: -80px;
 }
 
 .sweet{
 display: flex;
-align-items: center;
-justify-content: center;
 }
 
 .cuadro{
 background-color: #1073ba;
 width: 50%;
-height: 300px;
+height: 480px;
 display: flex;
-align-items: center;
 justify-content: center;
+align-items: center;
 flex-direction: column;
 }
 .subtitulo{
-  font-size: 35px;
-  margin-top: 70px;
+  font-size: 2.6rem;
+  
 }
 .texto1{
-  max-width: 500px;
-  margin-right: -160px;
-  line-height: 1.5;
-  font-size: 17px;
-  
+  max-width: 560px;
+  line-height: 1.9;
+  font-size: 1.3rem;
+
 }
 .cuadro2{
   background-color: aqua;
   width: 50%;
-  height: 300px;
+  height: 480px;
+  background-image:url(../imagenes/img-audifonos-main/img-audifonos/imagen-mujer.avif);
 }
 .cuadro2 img{
   width: 100%;
-  height: 300px;
+  height: 480px;
+}
+.cuadros3 {
+  background-color: #fff;
+  height: 106vh;
+  color: black;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+}
+
+.tecno {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(to right, #1073ba 0%, #00da55 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.movimiento {
+  display: flex;
+  justify-content: center;
+  gap: 3.5%;
+}
+
+.fondo {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 40%;
+}
+
+.cuadroA {
+  background-color: #e1e1e1;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24vh;
+}
+
+.cuadroB {
+  background-color: #1073ba;
+  height: 66vh;
+  width: 40%;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.precio4 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #1073ba;
+}
+
+.blanco {
+  color: white;
+}
+
+.audifono{
+  width: 30%;
+}
+.mayor{
+  width: 46%;
+}
+.sopa{
+  font-size: 2rem;
+  margin-top: 6rem;
+  color: #1073ba;
+}
+.arroz{
+font-size: 3rem;
+  margin-top: 3rem;
+  color: #ffffff;
+}
+.precio2{
+font-weight: bold;
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.suscripcion {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  color: black;
+  height: 100vh;
+  margin-bottom: 2rem;
+  
+  
 }
 
 
+.chica {
+  background-image: url(../imagenes/img-audifonos-main/img-audifonos/newsletter.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 50%;
+}
+
+
+.parrafos {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5.5rem;
+}
+
+
+.parrafo {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 560px;
+}
+
+
+.correo {
+  padding: 12px;
+  font-size: 1rem;
+  width: 90%;
+
+}
+
+
+.boton {
+  padding: 12px;
+  background-color: #1073ba;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 94.4%;
+  font-size: 1rem;
+  
+}
+.terminal{
+  background-color: white;
+  width: 100%;
+  height: 7vh;
+  margin-top: -60px;
+}
+.ultimo{
+  text-align: center;
+  color: #1073ba;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: white;
+}
